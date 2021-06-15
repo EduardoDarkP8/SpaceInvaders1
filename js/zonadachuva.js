@@ -25,8 +25,8 @@ class ZonadaChuva
 	    this.qtdegotas = 100;
 	    this.intervalId = 0;
         this.ctx = ctx;
-        this.width = "1800";
-        this.height = "1200";
+        this.width = "1280";
+        this.height = "720";
         this.ctx.canvas.height = this.height;
         this.ctx.canvas.width = this.width;
     }

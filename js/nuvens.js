@@ -13,14 +13,15 @@ function criarNuvens()
  Guarda.src = "gc.png";
  criar();
 
+
 }
 function criar() {
-    
+  
     requestAnimationFrame(criarNuvens);
-    ctx.drawImage(Nuvem1, 100, -100, 600,500);
-    ctx.drawImage(Nuvem2, 500, -100, 600,500);
-    ctx.drawImage(Nuvem3, 1000, -100, 600,500);
-    ctx.drawImage(Guarda, Gx, 800, 300, 300);
+    ctx.drawImage(Nuvem1, 12, -100, 444,400);
+    ctx.drawImage(Nuvem2, 400, -100, 474,430);
+    ctx.drawImage(Nuvem3, 900, -100, 444,400);
+    ctx.drawImage(Guarda, Gx, 400, 400, 300);
     
 }
 criarNuvens()
